@@ -18,6 +18,13 @@ defineOgImageComponent('DefaultPage', {
 <template>
   <main>
     <HomeHeader />
-    <LatestBlogPosts />
+    <section class="mx-auto mt-4 max-w-6xl px-4 sm:mt-8 md:mt-28 grid gap-8 md:grid-cols-12">
+      <LatestBlogPosts class="col-span-12 md:col-span-8" />
+      <div class="border-l border-slate-3 dark:border-slate-dark-2 col-span-12 sm:col-span-4 self-start p-8 my-8 gap-16 grid">
+        <AppExperienceWork />
+        <AppExperienceOSS />
+        <AppExperienceVolunteer />
+      </div>
+    </section>
   </main>
 </template>

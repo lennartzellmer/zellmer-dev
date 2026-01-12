@@ -24,7 +24,7 @@ const { data: postsMore } = await useAsyncData(() => queryCollection('posts')
 </script>
 
 <template>
-  <section class="mx-auto mt-4 max-w-5xl px-4 sm:mt-8 md:mt-28">
+  <div>
     <ul>
       <li
         v-for="post in posts"
@@ -68,5 +68,5 @@ const { data: postsMore } = await useAsyncData(() => queryCollection('posts')
         </span>
       </NuxtLink>
     </nav>
-  </section>
+  </div>
 </template>

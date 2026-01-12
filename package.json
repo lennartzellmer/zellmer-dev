@@ -5,7 +5,7 @@
   "packageManager": "pnpm@10.27.0",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --port 3123",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "lint": "eslint --fix .",
