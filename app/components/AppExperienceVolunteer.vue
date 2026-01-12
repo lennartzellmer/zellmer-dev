@@ -3,14 +3,12 @@ const voluneerWork = [
   {
     position: 'Systems Administrator',
     company: 'KIDS e.V.',
-    timeframe: '2024 - Present',
     logoUrl: '/company_logos/kids.jpg',
     link: 'https://www.kids-bonn.de/',
   },
   {
     position: 'Fullstack Developer',
     company: 'Music&Al e.V.',
-    timeframe: '2023 - Present',
     logoUrl: '/company_logos/musical.jpg',
     link: 'https://github.com/lennartzellmer/rbag-admin-panel',
   },
@@ -47,7 +45,6 @@ const voluneerWork = [
           </p>
           <span class="text-sm text-slate-10 dark:text-slate-dark-11">{{ entry.company }}</span>
         </div>
-        <span class="z-10 text-sm whitespace-nowrap text-slate-11 dark:text-slate-dark-11">{{ entry.timeframe }}</span>
       </NuxtLink>
     </div>
   </div>
