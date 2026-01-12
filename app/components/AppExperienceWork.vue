@@ -10,12 +10,12 @@ const cvEntries = [
     position: 'Developer / Senior Product Owner',
     company: 'elvah',
     logoUrl: '/company_logos/elvah.jpg',
-    timeframe: '2020 - 2025',
+    timeframe: '2020 - 25',
   },
   {
     position: 'Developer / Product Owner',
     company: 'kreait',
-    timeframe: '2016 - 2019',
+    timeframe: '2016 - 19',
     logoUrl: '/company_logos/kreait.jpg',
   },
 ] as const
